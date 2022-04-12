@@ -1,2 +1,2 @@
 # unit_converter
-Scrimba project
+My first Scrimba project

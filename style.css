@@ -1,0 +1,56 @@
+body {
+    background: rgb(0, 0, 0);
+}
+
+#back {
+    margin: 5px;
+    background: #1F2937;
+    width: 550px;
+    height: 550px;
+    margin-left: 400px;
+    border: thick solid rgb(207, 205, 205);
+    border-radius: 10px;
+}
+
+#unit_box {
+    
+    background: rgb(206, 206, 92);
+    width: 550px;
+    height: 260px;
+    top: 0px;
+    left: 0px;
+    border-bottom: 5px solid rgb(207, 205, 205);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#numInput {
+    background-color: transparent;
+    border: dashed #1F2937;
+    border-radius: 10px;
+    width: 211px;
+    height: 100px;
+    left: 169px;
+    top: 155px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 97.5723px;
+    line-height: 24px;
+
+    text-align: center;
+
+    color: #1F2937;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(207, 205, 205);
+    font-family: "Inter";
+    font-size: 14px;
+}

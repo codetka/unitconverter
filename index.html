@@ -11,21 +11,21 @@
         <div id="back">
             <div id="unit_box">
                 <h2 style="color: #1F2937;">Metric/Imperial Unit Conversion</h2>
-                <input type="text" id="numInput">
+                <input type="text" id="numInput" oninput="changeVal()">
             </div>
 
             <div class="result">
                 <h3>Length (Meter/Feet)</h3>
-                <p><span id="meterInput">0</span> meters = <span id="feetOutput">0.000</span> feet | <span id="feetInput">0</span> feet = <span id="meterOutput">0.000</span> meters</p>
+                <p><span class="input" id="meterInput">0</span> meters = <span class="output" id="feetOutput">0.000</span> feet | <span class="input" id="feetInput">0</span> feet = <span class="output" id="meterOutput">0.000</span> meters</p>
             </div>
             <div class="result">
                 <h3>Volume (Liters/Gallons)
                 </h3>
-                <p><span id="literInput">0</span> liters = <span id="gallonOutput">0.000</span> gallons | <span id="gallonInput">0</span> gallons = <span id="literOutput">0.000</span> liters</p>
+                <p><span class="input" id="literInput">0</span> liters = <span class="output" id="gallonOutput">0.000</span> gallons | <span class="input" id="gallonInput">0</span> gallons = <span class="output" id="literOutput">0.000</span> liters</p>
             </div>
             <div class="result">
                 <h3>Mass (Kilograms/Pounds)</h3>
-                <p> <span id="kiloInput">0</span> kilos = <span id="poundOutput">0.000</span> pounds | <span id="poundInput"></span> 0 pounds = <span id="kiloOutput"></span>0.000 kilos</p>
+                <p> <span class="input" id="kiloInput">0</span> kilos = <span class="output" id="poundOutput">0.000</span> pounds | <span class="input" id="poundInput">0</span> pounds = <span class="output" id="kiloOutput">0.000</span> kilos</p>
             </div>
         </div>
 

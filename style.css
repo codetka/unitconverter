@@ -54,3 +54,11 @@ body {
     font-family: "Inter";
     font-size: 14px;
 }
+
+.output {
+    color: rgb(131, 248, 131);
+}
+
+.input {
+    color: red;
+}
